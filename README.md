@@ -14,3 +14,5 @@
 - Groq API
 - pyttsx3
 - Pillow
+
+### Dont forget to get the background
