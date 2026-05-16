@@ -9,7 +9,7 @@ from langchain_groq import ChatGroq
 
 
 # --------- ENV CHECK ----------
-if "GROQ_API_KEY" not in os.environ:
+if "GROQ_API_KEY" not in os.environ:  # get your own Groq api key from the website and set it as a enviroment variable 
     raise RuntimeError("GROQ_API_KEY not set")
 
 
